@@ -8,6 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #333;
   line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
 }
 h1, h2, h3 {
   margin-bottom: 15px;
@@ -18,6 +19,22 @@ section {
 }
 .section.bg-light {
   background: #f4f4f4;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+body.dark-mode .section.bg-light {
+  background: #1e1e1e;
+}
+body.dark-mode .navbar {
+  background: #1e1e1e;
+}
+body.dark-mode .btn {
+  background: #00adb5;
+  color: #fff;
 }
 
 /* Navbar */
@@ -53,6 +70,20 @@ header {
 }
 .nav-links a:hover {
   color: #00adb5;
+}
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 /* Hero */
@@ -120,4 +151,25 @@ footer {
   color: #fff;
   text-align: center;
   padding: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    background: #111;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
 }
