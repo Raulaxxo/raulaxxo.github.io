@@ -31,7 +31,7 @@ title: Inicio
     </div>
     <h1>Hola, soy <span>Raúl Silva Gotterban</span></h1>
     <p>Ingeniero Cloud | DevOps | Infraestructura</p>
-    <a href="/assets//pdf/RaulSilvaCV2025.pdf" class="btn" download>
+    <a href="/assets/pdf/RaulSilvaCV2025.pdf" class="btn" download>
       <i class="fa-solid fa-download"></i> Descargar CV
     </a>
   </div>
@@ -67,17 +67,38 @@ title: Inicio
   <h2>Experiencia</h2>
   <div class="timeline">
     <div class="job">
-      <h3>NetRed Ltda. | Analista en Infraestructura y Cloud IT</h3>
+      <h3>Analista en Infraestructura y Cloud IT | NetRed Ltda. | Remoto</h3>
       <p><i class="fa-solid fa-calendar"></i> Feb 2022 – Ene 2025</p>
       <ul>
-        <li>Migración y administración de servidores en la nube (AWS, GCP).</li>
+        <li>Diseño, migración y administración de servidores en la nube (AWS, GCP).</li>
+        <li>Soporte técnico a desarrolladores y clientes en entornos productivos.</li>
         <li>Dockerización de servicios y orquestación con Kubernetes.</li>
-        <li>Automatización con Terraform y GitHub Actions.</li>
+        <li>Automatización de tareas con Terraform y GitHub Actions.</li>
+        <li>Atención a clientes del rubro salud, gastronómico y tecnológico (RedSalud, Niu Sushi, Domino’s).</li>
       </ul>
     </div>
     <div class="job">
-      <h3>Agencia de Aduanas JC Stephens | Ingeniero Soporte TI</h3>
+      <h3>Ingeniero en Soporte TI | Agencia de Aduanas Juan Carlos Stephens</h3>
       <p><i class="fa-solid fa-calendar"></i> Ene 2019 – Dic 2019</p>
+      <ul>
+        <li>Soporte de redes (routers, switches) y servidores (Linux y Windows).</li>
+        <li>Gestión de tickets de soporte técnico a usuarios finales.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Práctica Técnico en Redes | Servicio Nacional de Aduanas (Chile)</h3>
+      <p><i class="fa-solid fa-calendar"></i> Oct 2018 – Dic 2018</p>
+      <ul>
+        <li>Instalación y mantenimiento de servidores y redes.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Técnico en Soporte TI | B y T Ltda.</h3>
+      <p><i class="fa-solid fa-calendar"></i> 2015 – 2018</p>
+      <ul>
+        <li>Soporte técnico in situ y remoto.</li>
+        <li>Mantenimiento de sistemas propietarios y tótems de atención pública.</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -87,7 +108,17 @@ title: Inicio
   <h2>Educación</h2>
   <p><strong>Ingeniería en Conectividad y Redes</strong> — Duoc UC (2019)</p>
   <p><strong>Certificación:</strong> AWS Certified Cloud Practitioner (2023 - 2026)</p>
+  
+  <h3>Cursos Platzi</h3>
+  <ul>
+    <li>Jul 2025 — Curso de Introducción a DevOps (ID: 847941be)</li>
+    <li>Jul 2025 — Curso Básico de Jenkins (ID: b6651c86)</li>
+    <li>Jul 2025 — Curso de Docker Avanzado (ID: ad7be5ea)</li>
+    <li>Jul 2025 — Curso de Docker: Fundamentos (ID: d853220f)</li>
+    <li>Jul 2025 — Curso de Git y GitHub (ID: 74346b2a)</li>
+  </ul>
 </section>
+
 
 <!-- Contacto -->
 <section id="contacto" class="section">
