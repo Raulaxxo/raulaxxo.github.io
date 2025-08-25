@@ -1,133 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raúl Silva Gotterban - Ingeniero Cloud DevOps</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raúl Silva Gotterban | Cloud & DevOps</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container nav-container">
-            <div class="logo">Raúl<span>Silva</span></div>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Raúl Silva</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <!-- Botón hamburguesa (móvil) -->
-            <div class="menu-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-            </div>
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <h1>Hola, soy <span>Raúl Silva Gotterban</span></h1>
+      <p>Ingeniero Cloud | DevOps | Infraestructura</p>
+      <a href="cv.pdf" class="btn" download>
+        <i class="fa-solid fa-download"></i> Descargar CV
+      </a>
+    </div>
+  </section>
 
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobre-mi">Sobre Mí</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#experiencia">Experiencia</a></li>
-                    <li><a href="#educacion">Educación</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+  <!-- Sobre Mí -->
+  <section id="sobre-mi" class="section">
+    <h2>Sobre Mí</h2>
+    <p>
+      Ingeniero Cloud con experiencia en automatización, escalabilidad y despliegue de infraestructura en la nube.
+      Especialista en AWS, Kubernetes, Docker y Terraform, con foco en mejorar la eficiencia operativa mediante CI/CD y buenas prácticas de DevOps.
+    </p>
+  </section>
 
-                    <!-- Botón modo oscuro dentro del menú -->
-                    <li class="theme-li">
-                        <button id="themeToggle" class="theme-toggle" aria-label="Cambiar a modo oscuro">
-                            <i class="fas fa-moon"></i>
-                        </button>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!-- Habilidades -->
+  <section id="habilidades" class="section bg-light">
+    <h2>Habilidades</h2>
+    <div class="skills">
+      <span>AWS</span>
+      <span>GCP</span>
+      <span>Terraform</span>
+      <span>Docker</span>
+      <span>Kubernetes</span>
+      <span>CI/CD</span>
+      <span>Bash</span>
+      <span>Python</span>
+      <span>Linux</span>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="inicio" class="hero">
-        <div class="container hero-content">
-            <h1>Raúl Silva Gotterban</h1>
-            <p class="hero-subtitle">Ingeniero Cloud — DevOps — Infraestructura</p>
-            
-            <div class="hero-contact">
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <span>+56 9 4232 7604</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <span>ra.gotterban@gmail.com</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <span>rsilvagotterban</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <span>Raulaxxo</span>
-                </div>
-            </div>
-            
-            <div class="hero-buttons">
-                <a href="#contacto" class="btn btn-primary">Contáctame</a>
-                <a href="#experiencia" class="btn btn-secondary">Ver Experiencia</a>
-            </div>
-        </div>
-    </section>
+  <!-- Experiencia -->
+  <section id="experiencia" class="section">
+    <h2>Experiencia</h2>
+    <div class="timeline">
+      <div class="job">
+        <h3>NetRed Ltda. | Analista en Infraestructura y Cloud IT</h3>
+        <p><i class="fa-solid fa-calendar"></i> Feb 2022 – Ene 2025</p>
+        <ul>
+          <li>Migración y administración de servidores en la nube (AWS, GCP).</li>
+          <li>Dockerización de servicios y orquestación con Kubernetes.</li>
+          <li>Automatización con Terraform y GitHub Actions.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Agencia de Aduanas JC Stephens | Ingeniero Soporte TI</h3>
+        <p><i class="fa-solid fa-calendar"></i> Ene 2019 – Dic 2019</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="sobre-mi" class="about">
-        <div class="container">
-            <h2 class="section-title">Perfil Profesional</h2>
-            <div class="about-content">
-                <div class="profile-header">
-                    <img src="https://placehold.co/150x150/3498db/FFFFFF?text=RSG" alt="Raúl Silva Gotterban" class="profile-image">
-                    <div class="profile-text">
-                        <h2>Ingeniero Cloud & DevOps</h2>
-                        <p>Profesional proactivo, resolutivo y con excelentes habilidades interpersonales. Ingeniero Cloud con más de 3 años de experiencia y enfoque en automatización, escalabilidad y eficiencia operativa. Experiencia consolidada en tecnologías como AWS, Docker, Kubernetes y Terraform.</p>
-                        <p>He liderado procesos de dockerización para entornos de desarrollo y producción, implementado pipelines CI/CD, y diseñado infraestructura reproducible y segura.</p>
-                        
-                        <!-- Botón para descargar CV -->
-                        <a href="CV_Raul_Silva_Gotterban.pdf" download class="btn btn-cv">
-                            <i class="fas fa-download"></i> Descargar CV
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Educación -->
+  <section id="educacion" class="section bg-light">
+    <h2>Educación</h2>
+    <p><strong>Ingeniería en Conectividad y Redes</strong> — Duoc UC (2019)</p>
+    <p><strong>Certificación:</strong> AWS Certified Cloud Practitioner (2023 - 2026)</p>
+  </section>
 
-    <!-- Resto de las secciones... -->
+  <!-- Contacto -->
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p><i class="fa-solid fa-envelope"></i> ra.gotterban@gmail.com</p>
+    <p><i class="fa-solid fa-phone"></i> +56 9 4232 7604</p>
+    <p><i class="fa-brands fa-github"></i> Raulaxxo</p>
+    <p><i class="fa-brands fa-linkedin"></i> rsilvagotterban</p>
+  </section>
 
-    <script>
-        // Toggle menú móvil
-        document.querySelector('.menu-toggle').addEventListener('click', function() {
-            document.querySelector('nav ul').classList.toggle('show');
-        });
-
-        // Cerrar menú al hacer click en un enlace
-        document.querySelectorAll('nav ul li a').forEach(link => {
-            link.addEventListener('click', function() {
-                document.querySelector('nav ul').classList.remove('show');
-            });
-        });
-
-        // Modo oscuro con persistencia
-        (function () {
-            const btn = document.getElementById('themeToggle');
-            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            const saved = localStorage.getItem('theme'); // 'dark' | 'light' | null
-            const shouldBeDark = saved ? saved === 'dark' : prefersDark;
-
-            function applyTheme(dark) {
-                document.body.classList.toggle('dark-mode', dark);
-                btn.setAttribute('aria-label', dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
-                btn.innerHTML = dark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-                localStorage.setItem('theme', dark ? 'dark' : 'light');
-            }
-
-            applyTheme(shouldBeDark);
-
-            btn.addEventListener('click', () => {
-                applyTheme(!document.body.classList.contains('dark-mode'));
-            });
-        })();
-    </script>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Raúl Silva Gotterban | Cloud & DevOps</p>
+  </footer>
 </body>
 </html>
