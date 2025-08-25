@@ -31,7 +31,7 @@ title: Inicio
     </div>
     <h1>Hola, soy <span>Raúl Silva Gotterban</span></h1>
     <p>Ingeniero Cloud | DevOps | Infraestructura</p>
-    <a href="/portafolio/assets/RaulSilvaCV2025.pdf" class="btn" download>
+    <a href="/assets/RaulSilvaCV2025.pdf" class="btn" download>
       <i class="fa-solid fa-download"></i> Descargar CV
     </a>
   </div>
