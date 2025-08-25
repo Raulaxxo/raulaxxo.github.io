@@ -27,11 +27,11 @@ title: Inicio
 <section id="inicio" class="hero">
   <div class="hero-text">
     <div class="profile-pic">
-      <img src="yolentes.png" alt="Raúl Silva Gotterban">
+      <img src="/assets/images/yolentes.png" alt="Raúl Silva Gotterban">
     </div>
     <h1>Hola, soy <span>Raúl Silva Gotterban</span></h1>
     <p>Ingeniero Cloud | DevOps | Infraestructura</p>
-    <a href="/assets/RaulSilvaCV2025.pdf" class="btn" download>
+    <a href="/assets//pdf/RaulSilvaCV2025.pdf" class="btn" download>
       <i class="fa-solid fa-download"></i> Descargar CV
     </a>
   </div>
