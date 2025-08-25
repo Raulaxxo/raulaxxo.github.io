@@ -129,25 +129,24 @@ header {
 }
 /* Contenedor de la foto */
 .profile-pic {
-  width: 250px;
-  height: 250px;
+  width: 350px;         /* Aumenta tamaño */
+  height: 350px;        /* Aumenta tamaño */
   margin: 0 auto 20px;
-  border-radius: 25%;
+  border-radius: 50%;   /* Circular completo */
   overflow: hidden;
   border: 4px solid #00adb5;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   animation: fadeZoomIn 1.2s ease-out;
-  background: none; /* Quitar fondo blanco */
+  background: none;
 }
 
-/* Imagen circular */
+/* Imagen dentro del contenedor */
 .profile-pic img {
-  width: 150%;
-  height: 150%;
-  object-fit: cover;
+  width: 100%;          /* Ajusta al contenedor */
+  height: 100%;
+  object-fit: cover;    /* Mantiene proporción y cubre todo */
   display: block;
 }
-
 
 /* Skills */
 .skills {
